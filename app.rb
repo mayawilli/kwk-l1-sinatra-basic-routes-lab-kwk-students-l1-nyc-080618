@@ -14,7 +14,8 @@ class App < Sinatra::Base
   end 
   
   get '/song' do
-    'My favorite song is Poppin by Rico Nasty '
+    'My favorite song is Poppin by Rico Nasty'
+  end 
   
 
 end 
