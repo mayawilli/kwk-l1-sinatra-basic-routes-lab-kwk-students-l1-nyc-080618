@@ -17,5 +17,9 @@ class App < Sinatra::Base
     'My favorite song is Poppin by Rico Nasty'
   end 
   
+  get '/food' do 
+    'My favorite food is pizza'
+  end 
+  
 
 end 
